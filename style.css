@@ -1,0 +1,140 @@
+/*
+ * Custom Styles
+ */
+* {
+  margin:0;
+  padding:0;
+}
+/*
+ * NavBar
+ */
+
+.navbar {
+  background-color:#124e84 !important;
+}
+
+.nav-link {
+  color:#ffffff  !important;
+}
+
+.logo {
+  width:80px;
+  height:30px;
+}
+
+.gift_btn {
+  color: #124e84 !important;
+}
+
+.gift_btn i{
+  color: #124e84 !important;
+}
+
+.gift_btn:hover {
+  background-color:#f9ca24 !important;
+}
+
+/*
+ * Main Page Content
+ */
+
+ .hero video {
+   height:100vh;
+   width:100vw;
+   background-position:absolute;
+   z-index:10;
+   object-fit:cover;
+   opacity:0.8;
+ }
+
+ .hero .main_btns {
+   height:100%;
+   height:100%;
+   width:100%;
+   z-index:20;
+   position:absolute;
+   top:0;
+   left:0;
+ }
+
+ .fa-hand-holding-heart {
+   color:white;
+ }
+
+
+ .give {
+   background-color:#124e84;
+   border:#124e84;
+   color:white;
+
+ }
+
+ .learn {
+   background-color:#124e84;
+   border:#124e84;
+   color:white !important;
+ }
+
+/* ABOUT */
+#about {
+  color:#124e84 ;
+}
+
+.signature {
+  margin-top:100px;
+  height:150px;
+  width:200px;
+}
+
+#about p {
+  color:#333 !important;
+}
+
+/* IMAGE */
+#image_row {
+  height:300px;
+  background:url("https://image.freepik.com/free-vector/abstract-sport-background-flat-design_52683-17961.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: no-attachment;
+}
+
+/* PRICE */
+#price .card{
+  border:3px solid #f9ca24 !important;
+  background-color: #124e84;
+  color:white !important;
+}
+
+/*
+ * Footer
+ */
+
+/*
+ * Media Queries
+ */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
